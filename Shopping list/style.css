@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+  }
+
+  #addItemInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  #addItemButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  #groceryList {
+    margin-top: 20px;
+  }
+
+  .groceryItem {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    overflow: auto;
+    border-radius: 5px;
+  }
+
+  .itemText{
+    display: inline-block;
+  }
+
+  .deleteButton{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+  }
